@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/k8stooling/openwebui-ollama-scaler
+          images: ghcr.io/krisek/openwebui-ollama-scaler
           tags: latest
       - name: Login to GHCR
         uses: docker/login-action@v3
