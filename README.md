@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: scaler
-        image: ghcr.io/k8stooling/openwebui-ollama-scaler:latest
+        image: ghcr.io/krisek/openwebui-ollama-scaler:latest
         env:
         - name: API_URL
           valueFrom:
